@@ -1,2 +1,2 @@
 # BackDoor-Learning
-Resourses about BackDoor Attacks
+Learning Notes and Resourses about BackDoor Attacks
