@@ -9,20 +9,20 @@
 
 ## 术语
 
-- **user：**等价于defender，是DNN模型的所有者；
-- **attacker：**是想要在模型中植入后门的人；
-- **trigger:** 用于生成有毒样本和激活隐藏后门的pattern；
-- **clean input：**指没有触发器的输入，它可以是原始训练样本、验证样本或测试样本，等价于clean sample，clean instance，benign input；
-- **trigger input：**指带有攻击者指定的为了触发后门而设置的触发器的输入，等价于trigger sample，trigger instance，adversarial input，attack sample, poisoned input, poisoned sample；
-- **target class/label：**指攻击者指定触发器对应要触发的目标标签，等价于target label；
-- **source class/label：**指攻击者要通过trigger input触发修改的原标签，等价于source label；
-- **benign model: **指在clean input下训练出的模型
-- **infected model：**有隐藏后门的模型；
-- **attack scenario:** 后门攻击的场景；
+- **user**：等价于defender，是DNN模型的所有者；
+- **attacker**：是想要在模型中植入后门的人；
+- **trigger**：用于生成有毒样本和激活隐藏后门的pattern；
+- **clean input**：指没有触发器的输入，它可以是原始训练样本、验证样本或测试样本，等价于clean sample，clean instance，benign input；
+- **trigger input**：指带有攻击者指定的为了触发后门而设置的触发器的输入，等价于trigger sample，trigger instance，adversarial input，attack sample, poisoned input, poisoned sample；
+- **target class/label**：指攻击者指定触发器对应要触发的目标标签，等价于target label；
+- **source class/label**：指攻击者要通过trigger input触发修改的原标签，等价于source label；
+- **benign model**：指在clean input下训练出的模型
+- **infected model**：有隐藏后门的模型；
+- **attack scenario**：后门攻击的场景；
 
-- **latent representation：**等价于latent feature，指高维数据（一般特指input）的低维表示，latent representation是来自神经网络中间层的特征；
-- **Digital Attack：**指对抗性扰动被标记在数字输入上，例如通过修改数字图像中的像素；
-- **Physical Attack：**指对物理世界中的攻击对象做出对抗性扰动，不过对于系统捕获的digital input是不可控的，可以理解为在现实世界中发动攻击。
+- **latent representation**：等价于latent feature，指高维数据（一般特指input）的低维表示，latent representation是来自神经网络中间层的特征；
+- **Digital Attack**：指对抗性扰动被标记在数字输入上，例如通过修改数字图像中的像素；
+- **Physical Attack**：指对物理世界中的攻击对象做出对抗性扰动，不过对于系统捕获的digital input是不可控的，可以理解为在现实世界中发动攻击。
 
 ### 评价指标
 
