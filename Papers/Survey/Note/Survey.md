@@ -430,7 +430,7 @@ Tang等人的工作设计了一种不需要训练的攻击方法，不像上面�
 
 ### 防御对策
 
-另一种分类方法从防御对策方面可分为：**盲后门移除Blind Backdoor Removal、离线检查Offline Inspection、在线检查Online Inspection\*、\*后后门移除Post Backdoor Removal**，如下图所示：
+另一种分类方法从防御对策方面可分为：**盲后门移除Blind Backdoor Removal、离线检查Offline Inspection、在线检查Online Inspection、后后门移除Post Backdoor Removal**，如下图所示：
 
 ![image-20230718132029257](assets/Survey/image-20230718132029257.png)
 
