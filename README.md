@@ -59,7 +59,7 @@ Learning Notes and Resourses about BackDoor Attacks
 
 ### 攻击面
 
-后门攻击手法多样，不同的攻击方案其假设也不同，因此很难做一个全面的分类，paper[1][2]对后门攻击和防御进行了比较全面的综述。paper[2]**根据受影响的ML管道阶段**和攻击者的能力，将目前的后门攻击归纳为**六个后门攻击面**：**代码投毒code poisoning，外包outsourcing，预训练pretrained，数据收集data collection，协作学习collaborative learning，部署后post-deployment，**如下图所示：
+后门攻击手法多样，不同的攻击方案其假设也不同，因此很难做一个全面的分类，paper[1][2]对后门攻击和防御进行了比较全面的综述。paper[2]**根据受影响的ML管道阶段**和攻击者的能力，将目前的后门攻击归纳为**六个后门攻击面**：**代码投毒code poisoning，外包outsourcing，预训练pretrained，数据收集data collection，协作学习collaborative learning，部署后post-deployment**，如下图所示：
 
 <img src="assets/Survey/image-20230717163556240.png" alt="image-20230717163556240" style="zoom:50%;" />
 
